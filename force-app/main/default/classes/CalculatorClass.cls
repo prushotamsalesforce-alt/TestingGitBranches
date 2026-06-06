@@ -1,6 +1,6 @@
 public with sharing class CalculatorClass {
-    public integer addTwoNumbersChange(Integer num1, Integer num2)
+    public integer addThreeNumbersChange(Integer num1, Integer num2, Integer num3)
     {
-        return num1 + num2;
+        return num1 + num2 + num3;
     }
 }
